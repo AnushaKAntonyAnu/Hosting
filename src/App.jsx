@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="w-full mt-8">
-        <img src="image.png" alt="Code Example" className="w-full h-150 object-cover object-left-top rounded-lg shadow-lg" style={{ background: '#0a1833' }} />
+        <img src="src/image.png" alt="Code Example" className="w-full h-150 object-cover object-left-top rounded-lg shadow-lg" style={{ background: '#0a1833' }} />
         <div className="w-full h-[2460.07px]  bg-[#2A4DD0] mx-auto relative flex justify-start items-start">
           <div
             className="font-poppins font-normal text-[60px] leading-[112%] tracking-[0] text-left p-8 mt-12 ml-12 rounded-lg max-w-[900px]"
@@ -19,7 +19,7 @@ function App() {
           {/* Image1.png under the text, left side, with specified size and position */}
           <div>
             <img
-              src="image1.png"
+              src="src/image1.png"
               alt="Decorative"
               className="absolute rounded-[6px] w-[300px] h-[300px] top-[100.59px] left-[800.5px]"
             />
@@ -33,7 +33,7 @@ function App() {
             </div></div>
           <div>
             <img
-              src="image (1).png"
+              src="src/image (1).png"
               alt="Decorative"
               className="absolute rounded-[6px] w-[300px] h-[300px] top-[300.59px] right-[800.5px]"
             />
@@ -45,7 +45,7 @@ function App() {
             </div></div>
           <div>
             <img
-              src="image (2).png"
+              src="src/image (2).png"
               alt="Decorative"
               className="absolute rounded-[6px] w-[300px] h-[300px] top-[600.59px] left-[800.5px]"
             />
@@ -58,7 +58,7 @@ function App() {
             </div></div>
           <div>
             <img
-              src="imag 1.png"
+              src="src/imag 1.png"
               alt="Decorative"
               className="absolute rounded-[6px] w-[300px] h-[300px] top-[780.59px] right-[800.5px]"
             />
@@ -71,7 +71,7 @@ function App() {
             </div></div>
           <div>
             <img
-              src="image (5).png"
+              src="src/image (5).png"
               alt="Decorative"
               className="absolute rounded-[6px] w-[300px] h-[300px] top-[1080.59px] left-[800.5px]"
             />
@@ -84,7 +84,7 @@ function App() {
             </div></div>
           <div>
             <img
-              src="image (3).png"
+              src="src/image (3).png"
               alt="Decorative"
               className="absolute rounded-[6px] w-[300px] h-[300px] top-[1300.59px] right-[800.5px]"
             />
@@ -97,7 +97,7 @@ function App() {
             </div></div>
           <div>
             <img
-              src="image (6).png"
+              src="src/image (6).png"
               alt="Decorative"
               className="absolute rounded-[6px] w-[300px] h-[300px] top-[1600.59px] left-[800.5px]"
             />
@@ -111,7 +111,7 @@ function App() {
             </div></div>
           <div>
             <img
-              src="image (7).png"
+              src="src/image (7).png"
               alt="Decorative"
               className="absolute rounded-[6px] w-[300px] h-[300px] top-[1900.59px] right-[800.5px]"
             />
@@ -135,17 +135,17 @@ function App() {
           <div className="flex flex-col md:flex-row gap-8 justify-center">
             {/* Image 1 */}
             <div className="flex flex-col items-center w-[300px]">
-              <img src="image (13).png" alt="Artificial Intelligence" className="rounded-md w-full h-[250px] object-cover mb-4 bg-gray-200" />
+              <img src="src/image (13).png" alt="Artificial Intelligence" className="rounded-md w-full h-[250px] object-cover mb-4 bg-gray-200" />
               <div className="font-poppins text-gray-800 text-[20px] font-normal text-center">Artificial Intelligence</div>
             </div>
             {/* Image 2 */}
             <div className="flex flex-col items-center w-[300px]">
-              <img src="image (12).png" alt="Customer Relationship Management" className="rounded-md w-full h-[250px] object-cover mb-4 bg-gray-200" />
+              <img src="src/image (12).png" alt="Customer Relationship Management" className="rounded-md w-full h-[250px] object-cover mb-4 bg-gray-200" />
               <div className="font-poppins text-gray-800 text-[20px] font-normal text-center">Customer Relationship Management</div>
             </div>
             {/* Image 3 */}
             <div className="flex flex-col items-center w-[300px]">
-              <img src="image (11).png" alt="Enterprise Resource Planning" className="rounded-md w-full h-[250px] object-cover mb-4 bg-gray-200" />
+              <img src="src/image (11).png" alt="Enterprise Resource Planning" className="rounded-md w-full h-[250px] object-cover mb-4 bg-gray-200" />
               <div className="font-poppins text-gray-800 text-[20px] font-normal text-center">Enterprise Resource Planning</div>
             </div>
           </div>
@@ -206,7 +206,7 @@ function App() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start">
           {/* Logo and tagline */}
           <div className="flex-1 min-w-[220px] flex flex-col gap-3 mb-8 md:mb-0">
-            <img src="Pokak Logo 2 (1) 3.png" alt="Pokak Technologies Logo" className="h-14 w-60 gap-[3cm] mb-2" />
+            <img src="src/Pokak Logo 2 (1) 3.png" alt="Pokak Technologies Logo" className="h-14 w-60 gap-[3cm] mb-2" />
             <div className="text-3xl md:text-2xl text-white mt-2">Where Ideas Meet Innovation.</div>
           </div>
           {/* Right side: Follow Us, Sitemap, Get in touch */}
